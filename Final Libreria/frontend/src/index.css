@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-800 antialiased;
+}
+
+::selection {
+  background: #b5cce8;
+  color: #0c1f36;
+}
+
+#root {
+  @apply min-h-screen;
+}
+
+@media print {
+  nav,
+  .no-print {
+    display: none !important;
+  }
+
+  body,
+  #root,
+  main {
+    background: white !important;
+  }
+}
+
+@media print {
+  body.printing-ticket * {
+    visibility: hidden;
+  }
+
+  body.printing-ticket #sale-ticket,
+  body.printing-ticket #sale-ticket * {
+    visibility: visible;
+  }
+
+  body.printing-ticket #sale-ticket {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80mm;
+  }
+}
