@@ -23,7 +23,7 @@ function ConfiguracionLayout() {
               className={({ isActive }) =>
                 `whitespace-nowrap px-4 py-2.5 rounded-xl text-sm font-medium transition ${
                   isActive
-                    ? 'bg-indigo-50 text-indigo-900'
+                    ? 'bg-indigo-50 text-indigo-900 font-semibold'
                     : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                 }`
               }
@@ -35,7 +35,7 @@ function ConfiguracionLayout() {
               className={({ isActive }) =>
                 `whitespace-nowrap px-4 py-2.5 rounded-xl text-sm font-medium transition ${
                   isActive
-                    ? 'bg-indigo-50 text-indigo-900'
+                    ? 'bg-indigo-50 text-indigo-900 font-semibold'
                     : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                 }`
               }
@@ -47,7 +47,7 @@ function ConfiguracionLayout() {
               className={({ isActive }) =>
                 `whitespace-nowrap px-4 py-2.5 rounded-xl text-sm font-medium transition ${
                   isActive
-                    ? 'bg-indigo-50 text-indigo-900'
+                    ? 'bg-indigo-50 text-indigo-900 font-semibold'
                     : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                 }`
               }
@@ -59,7 +59,7 @@ function ConfiguracionLayout() {
               className={({ isActive }) =>
                 `whitespace-nowrap px-4 py-2.5 rounded-xl text-sm font-medium transition ${
                   isActive
-                    ? 'bg-indigo-50 text-indigo-900'
+                    ? 'bg-indigo-50 text-indigo-900 font-semibold'
                     : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                 }`
               }
