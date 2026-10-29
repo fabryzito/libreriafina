@@ -145,7 +145,7 @@ function Login() {
         </div>
         <div>
           <h1 className="text-4xl font-semibold tracking-tight leading-tight max-w-md">
-            El mostrador, la caja y el stock en un solo lugar.
+            LUZ MORENA, SISTEMA DE GESTION 
           </h1>
           <p className="mt-4 max-w-sm text-white/70">
             Entrá con tu usuario del equipo para vender, cobrar y revisar el día.
